@@ -7,7 +7,7 @@ var descBlk = $(".textarea");
 
 // variable to hold the current hour 
 var hourNow = moment().format("k");
-hourNow = 12;
+
 // function to reload the page after 30 minutes
 var reload = function() {
     setTimeout(function(){
